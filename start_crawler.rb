@@ -19,8 +19,10 @@ class Scraper
       author = quote.css('.author').text
       author_about = quote.css('span').children.css('a')[0].attribute('href').value
 
-      quote.css('.tags').css('a').children.map do |tag|
+      count_tag = 0
+      quote.css('.tags').children.children.each do |tag|
         tags_array << tag.text
+        count_tag += 1
       end
 
       quotes = {
@@ -31,7 +33,11 @@ class Scraper
       }
 
       all_quotes_array << quotes
+      tags_array = []
     end
+
+    puts all_quotes_array
+    # Quote.create_collection(all_quotes_array)
   end
 
 end
