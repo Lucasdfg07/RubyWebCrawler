@@ -1,24 +1,87 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Logo of the project](https://raw.githubusercontent.com/Lucasdfg07/RubyWebCrawler/public/logo.jpg)
 
-Things you may want to cover:
 
-* Ruby version
+## Ruby Web Crawler 
+This application is a web crawler did for Inovamind's thenical challenge.
 
-* System dependencies
 
-* Configuration
+## Technology 
 
-* Database creation
+Here are the technologies used in this project.
 
-* Database initialization
+* Ruby version  2.5.1
+* Ruby on Rails version 5.0.1
+* Docker 
+* Docker Compose
+* MongoDB
 
-* How to run the test suite
+## Services Used
 
-* Services (job queues, cache servers, search engines, etc.)
+* Github
+* Heroku
 
-* Deployment instructions
+## Ruby Gems
 
-* ...
+* Devise
+* Mongoid
+* Pry-Rails
+* Simple_token_authentication
+* Rest-Client
+* Jbuilder
+* Responders
+
+
+## Getting started
+
+* Dependency
+  - Docker
+  - Docker Compose
+
+* To build the containers:
+>    $ sudo docker-compose build
+
+* To create the bank and do as migrations:
+>    $ sudo docker-compose run --rm app bundle exec rake db:seed
+
+* To install as gens:
+>    $ sudo docker-compose run --rm app bundle install
+
+* To run the project:
+>    $ sudo docker-compose up
+
+
+## Features
+
+The main features of the application are;
+
+* Customer record management.
+* Records Management of Employees.
+* Product and service management.
+* Schedules
+* Financial reports
+* Business indicators
+
+
+## Links
+
+- Project homepage: 
+  - User: teste@teste.com
+  - Password: teste123
+
+  - Repository: https://github.com/Lucasdfg07/RubyWebCrawler
+    - In case of sensitive bugs like security vulnerabilities, please contact
+      Lucassiqueiraferandes07@gmail.com directly instead of using issue tracker. We value your effort
+      to improve the security and privacy of this project!
+
+  ## Versioning
+
+  1.0.0.0
+
+
+  ## Authors
+
+  * **Lucas Siqueira Fernandes** 
+
+  Please follow github and join us!
+  Thanks to visiting me and good coding!
