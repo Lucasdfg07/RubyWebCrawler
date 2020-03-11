@@ -19,7 +19,6 @@ Here are the technologies used in this project.
 ## Services Used
 
 * Github
-* Heroku
 
 ## Ruby Gems
 
@@ -51,6 +50,42 @@ Here are the technologies used in this project.
 >    $ sudo docker-compose up
 
 
+## Test Using Postman
+
+* Step 1
+  * Enter into the postman and put the local URL with the API endpoint (localhost:3000/api/v1/quotes/the_word_that_you_will_search.json) and run it.
+  * You will see something like the image above:
+  
+  ![Step 1 Postman](https://github.com/Lucasdfg07/RubyWebCrawler/blob/master/public/step1.png)
+  
+* Step 2
+  * Authentication error needs the user creation and authentication in Devise, so...
+  * Enter into the terminal and put "rails c".
+  * Into the "rails c", create your User with the command: User.create(email: "your_email", password: "your_password")
+  * The register will return you the authentication_token. Copy that!
+  
+  ![Step 2 Postman](https://github.com/Lucasdfg07/RubyWebCrawler/blob/master/public/step2.png)
+  
+* Step 3
+  * Write the Postman header with your informations that you catch in the last step.
+  * Your Header will appear like:
+  
+  ![Step 3 Postman](https://github.com/Lucasdfg07/RubyWebCrawler/blob/master/public/step3.png)
+  
+* Step 4
+  * Thats it!!! You made it.
+  * Now, click in "Send" and search your tags about the http://quotes.toscrape.com/ website.
+  
+  ![Step 4 Postman](https://github.com/Lucasdfg07/RubyWebCrawler/blob/master/public/step4.png)
+  
+## Test Using Localhost Project
+
+* Step 1
+  * Run the project and try to access localhost:3000/api/v1/quotes/some_word.json
+  * Sign In or Sign Up into the devise form:
+  
+
+
 ## Features
 
 The main features of the application are;
@@ -63,10 +98,6 @@ The main features of the application are;
 
 
 ## Links
-
-- Project homepage: 
-  - User: teste@teste.com
-  - Password: teste123
 
   - Repository: https://github.com/Lucasdfg07/RubyWebCrawler
     - In case of sensitive bugs like security vulnerabilities, please contact
