@@ -81,9 +81,15 @@ Here are the technologies used in this project.
 ## Test Using Localhost Project
 
 * Step 1
-  * Run the project and try to access localhost:3000/api/v1/quotes/some_word.json
+  * Run the project and try to access localhost:3000/users/sign_in
   * Sign In or Sign Up into the devise form:
   
+  ![Step 1 Localhost](https://github.com/Lucasdfg07/RubyWebCrawler/blob/master/public/step1_local.png)
+  
+  * After Signed In, type localhost:3000/api/v1/quotes/the_word_that_you_will_search.json.
+  * Will Work because you now already have your access token to use the system!! :D
+  
+  ![Step 2 Localhost](https://github.com/Lucasdfg07/RubyWebCrawler/blob/master/public/step2_local.png)
 
 
 ## Features
