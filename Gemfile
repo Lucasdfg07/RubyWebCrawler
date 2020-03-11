@@ -5,11 +5,17 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# implements MongoDB and set Crawlet methods
 gem 'mongoid'
 gem 'pry-rails'
 
+# API Authentication
+gem 'devise'
+
+# Rest Calls
 gem 'rest-client'
 
+# Respond Json Method
 gem 'jbuilder', '~> 2.5'
 gem 'responders'
 
