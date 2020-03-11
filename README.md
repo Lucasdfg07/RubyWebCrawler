@@ -1,5 +1,5 @@
 
-![Logo of the project](https://raw.githubusercontent.com/Lucasdfg07/RubyWebCrawler/public/logo.jpg)
+![Logo of the project](https://github.com/Lucasdfg07/RubyWebCrawler/public/logo.jpg)
 
 
 ## Ruby Web Crawler 
