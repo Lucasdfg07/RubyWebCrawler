@@ -56,10 +56,10 @@ Here are the technologies used in this project.
 The main features of the application are;
 
 * Scrap the website http://quotes.toscrape.com/ searching tags and return the equivalent:
-* - Quote (Title)
-* - Author
-* - Author About
-* - Tags
+ - Quote (Title)
+ - Author
+ - Author About
+ - Tags
 
 
 ## Links
