@@ -11,6 +11,7 @@ gem 'pry-rails'
 
 # API Authentication
 gem 'devise'
+gem 'simple_token_authentication', '~> 1.0'
 
 # Rest Calls
 gem 'rest-client'
