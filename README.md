@@ -55,12 +55,11 @@ Here are the technologies used in this project.
 
 The main features of the application are;
 
-* Customer record management.
-* Records Management of Employees.
-* Product and service management.
-* Schedules
-* Financial reports
-* Business indicators
+* Scrap the website http://quotes.toscrape.com/ searching tags and return the equivalent:
+* - Quote (Title)
+* - Author
+* - Author About
+* - Tags
 
 
 ## Links
